@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ótica Íris | Óculos de grau, óculos de sol e lentes em São Paulo</title>
+  <meta name="description" content="Armações de grau, óculos de sol e lentes de qualidade com atendimento personalizado. Visite a Ótica Íris ou fale com a gente pelo WhatsApp.">
+  <meta name="theme-color" content="#FBF8F3">
+  <link rel="canonical" href="https://www.oticairis.com.br/">
+
+  <!-- Open Graph: é o que aparece quando alguém compartilha o link no WhatsApp/Instagram -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Ótica Íris | Óculos de grau, de sol e lentes">
+  <meta property="og:description" content="Armações, óculos de sol, lentes e ajustes no Centro de São Paulo. Chame no WhatsApp ou passe na loja.">
+  <meta property="og:url" content="https://www.oticairis.com.br/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?auto=format&amp;fit=crop&amp;w=1200&amp;h=630&amp;q=75">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Fontes: preconnect abre a conexão cedo; display=swap mostra o texto antes da fonte chegar -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500..700&amp;family=Source+Sans+3:wght@400..700&amp;display=swap">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js" defer></script>
+
+  <!-- Dados estruturados: ajudam o Google a mostrar a loja em buscas locais ("ótica perto de mim") -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Optician",
+    "name": "Ótica Íris",
+    "url": "https://www.oticairis.com.br/",
+    "telephone": "+55-11-3000-0000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Exemplo, 123",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "00000-000",
+      "addressCountry": "BR"
+    },
+    "openingHours": ["Mo-Fr 09:00-19:00", "Sa 09:00-14:00"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sprite de ícones: cada ícone é desenhado uma vez e reutilizado com <use> -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="currentColor" d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" d="M5 4h3.5l1.7 4.3-2.2 1.4a11 11 0 0 0 6.3 6.3l1.4-2.2L20 15.5V19a1.5 1.5 0 0 1-1.6 1.5A16.5 16.5 0 0 1 3.5 5.6 1.5 1.5 0 0 1 5 4Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M12 7.5V12l3 2"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Ótica Íris, voltar ao início">
+        <svg class="logo-mark" viewBox="0 0 48 20" aria-hidden="true"><circle cx="11" cy="10" r="8" /><circle cx="37" cy="10" r="8" /><path d="M19 9.5c1.6-2 8.4-2 10 0" /></svg>
+        <span class="logo-text"><small>Ótica</small> Íris</span>
+      </a>
+
+      <nav class="main-nav" id="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="#colecoes">Modelos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn-whatsapp nav-whatsapp" href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento.">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Fale pelo WhatsApp
+        </a>
+      </nav>
+
+      <a class="btn btn-whatsapp header-whatsapp" href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento.">
+        <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+        <span>WhatsApp</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <!-- Preenchido pelo script.js a partir de CONFIG.horarios -->
+          <p class="hero-status" data-status hidden></p>
+          <h1 class="hero-title" id="hero-title">Óculos de grau, de sol e lentes no Centro.</h1>
+          <p class="hero-text">Traga sua receita, experimente as armações com calma e saia com os óculos ajustados ao seu rosto. Também fazemos ajustes e pequenos consertos.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento.">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Chamar no WhatsApp
+            </a>
+            <a class="btn btn-outline" href="#colecoes">Ver modelos</a>
+          </div>
+          <ul class="hero-info">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-info="enderecoCurto">Rua Exemplo, 123, Centro</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg><span data-info="horarioCurto">Seg a sex 9h–19h, sáb 9h–14h</span></li>
+          </ul>
+        </div>
+
+        <figure class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?auto=format&amp;fit=crop&amp;w=1000&amp;q=75"
+            srcset="https://images.unsplash.com/photo-1485875437342-9b39470b3d95?auto=format&amp;fit=crop&amp;w=640&amp;q=75 640w,
+                    https://images.unsplash.com/photo-1485875437342-9b39470b3d95?auto=format&amp;fit=crop&amp;w=1000&amp;q=75 1000w,
+                    https://images.unsplash.com/photo-1485875437342-9b39470b3d95?auto=format&amp;fit=crop&amp;w=1600&amp;q=75 1600w"
+            sizes="(max-width: 900px) 100vw, 45vw"
+            width="1000" height="1250"
+            alt="Mulher sorrindo usando óculos de grau com armação redonda"
+            fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORIAS ============ -->
+    <section class="section categories" id="categorias" aria-labelledby="categorias-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="categorias-title">O que você procura?</h2>
+        </header>
+
+        <div class="category-grid">
+          <a class="category-card" href="#colecoes" data-filter="grau">
+            <img src="https://images.unsplash.com/photo-1609132718484-cc90df3417f8?auto=format&amp;fit=crop&amp;w=900&amp;q=70" width="900" height="1100" loading="lazy" alt="Mulher de suéter branco usando óculos de grau com armação preta">
+            <span class="category-body">
+              <span class="category-name">Óculos de grau</span>
+            </span>
+          </a>
+          <a class="category-card" href="#colecoes" data-filter="sol">
+            <img src="https://images.unsplash.com/photo-1609694923332-ac96287d7203?auto=format&amp;fit=crop&amp;w=700&amp;q=70" width="700" height="700" loading="lazy" alt="Mulher usando óculos de sol aviador dourado">
+            <span class="category-body">
+              <span class="category-name">Óculos de sol</span>
+            </span>
+          </a>
+          <a class="category-card" href="#colecoes" data-filter="masculino">
+            <img src="https://images.unsplash.com/photo-1609741199878-3e8ebdb1dbc7?auto=format&amp;fit=crop&amp;w=700&amp;q=70" width="700" height="700" loading="lazy" alt="Homem usando óculos de grau com armação preta">
+            <span class="category-body">
+              <span class="category-name">Masculino</span>
+            </span>
+          </a>
+          <a class="category-card" href="#colecoes" data-filter="feminino">
+            <img src="https://images.unsplash.com/photo-1581915649317-41fc6eb9597d?auto=format&amp;fit=crop&amp;w=700&amp;q=70" width="700" height="700" loading="lazy" alt="Mulher usando óculos com armação branca">
+            <span class="category-body">
+              <span class="category-name">Feminino</span>
+            </span>
+          </a>
+          <a class="category-card" href="#colecoes" data-filter="infantil">
+            <img src="https://images.unsplash.com/photo-1722303165074-acba5cd2f3cd?auto=format&amp;fit=crop&amp;w=700&amp;q=70" width="700" height="700" loading="lazy" alt="Três armações de óculos coloridas lado a lado">
+            <span class="category-body">
+              <span class="category-name">Infantil</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VITRINE / COLEÇÕES ============ -->
+    <section class="section showcase" id="colecoes" aria-labelledby="colecoes-title">
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <h2 id="colecoes-title">Alguns modelos da loja</h2>
+            <p>Na loja tem bem mais. Gostou de algum? Chame no WhatsApp que a gente passa preço, cores e disponibilidade.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrar modelos por categoria">
+            <button type="button" class="chip" data-filter="todos" aria-pressed="true">Todos</button>
+            <button type="button" class="chip" data-filter="grau" aria-pressed="false">Grau</button>
+            <button type="button" class="chip" data-filter="sol" aria-pressed="false">Sol</button>
+            <button type="button" class="chip" data-filter="masculino" aria-pressed="false">Masculino</button>
+            <button type="button" class="chip" data-filter="feminino" aria-pressed="false">Feminino</button>
+            <button type="button" class="chip" data-filter="infantil" aria-pressed="false">Infantil</button>
+          </div>
+        </header>
+
+        <!-- Os cards são gerados pelo script.js a partir da lista PRODUTOS -->
+        <div class="product-track" id="product-list" aria-live="polite"></div>
+
+        <p class="product-empty" id="product-empty" hidden>
+          Ainda não colocamos modelos dessa categoria no site, mas temos na loja.
+          <a href="#contato" data-whatsapp="Olá! Quero ver os modelos disponíveis dessa categoria.">Peça fotos pelo WhatsApp</a>.
+        </p>
+
+        <noscript>
+          <p class="product-empty">Ative o JavaScript para ver a vitrine, ou fale com a gente pelo WhatsApp: (11) 99999-9999.</p>
+        </noscript>
+      </div>
+
+      <!-- Molde de um card. O JS copia este molde e preenche com os dados de cada produto -->
+      <template id="product-template">
+        <article class="product-card">
+          <div class="product-media">
+            <img src="" alt="" width="600" height="600" loading="lazy">
+          </div>
+          <div class="product-body">
+            <p class="product-category"></p>
+            <h3 class="product-name"></h3>
+            <p class="product-text"></p>
+            <a class="btn btn-outline btn-small product-cta" href="#contato" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Perguntar preço
+            </a>
+          </div>
+        </article>
+      </template>
+    </section>
+
+    <!-- ============ RECEITA ============ -->
+    <section class="recipe" aria-labelledby="receita-title">
+      <div class="container recipe-grid">
+        <div class="recipe-content">
+          <h2 id="receita-title">Já tem a receita?</h2>
+          <p>Mande uma foto dela pelo WhatsApp. A gente indica as lentes certas para o seu grau, passa o orçamento e você vem só para escolher a armação.</p>
+        </div>
+        <a class="btn btn-light" href="#contato" data-whatsapp="Olá! Tenho uma receita e gostaria de um orçamento.">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          Enviar minha receita
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section services" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="servicos-title">Serviços</h2>
+        </header>
+        <ul class="service-list">
+          <li><h3>Óculos de grau</h3><p>Armações em acetato, metal e titânio, com lentes feitas a partir da sua receita.</p></li>
+          <li><h3>Lentes</h3><p>Antirreflexo, filtro de luz azul, fotossensíveis e multifocais.</p></li>
+          <li><h3>Óculos de sol</h3><p>Modelos com proteção UV, e também com grau.</p></li>
+          <li><h3>Infantil</h3><p>Armações flexíveis e resistentes, com paciência para o primeiro óculos.</p></li>
+          <li><h3>Ajustes e consertos</h3><p>Aperto de hastes, troca de plaquetas e parafusos, limpeza.</p></li>
+          <li><h3>Orçamento pelo WhatsApp</h3><p>Mande a foto da receita e receba o valor antes de vir.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MARCAS ============ -->
+    <!-- Nomes ilustrativos: troque pelas marcas que a loja realmente revende -->
+    <section class="section brands" id="marcas" aria-labelledby="marcas-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="marcas-title">Marcas que trabalhamos</h2>
+        </header>
+        <ul class="brand-list">
+          <li>Ray-Ban</li>
+          <li>Oakley</li>
+          <li>Vogue Eyewear</li>
+          <li>Ana Hickmann</li>
+          <li>Chilli Beans</li>
+          <li>Tommy Hilfiger</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="section about" id="sobre" aria-labelledby="sobre-title">
+      <div class="container about-grid">
+        <figure class="about-media">
+          <img src="https://images.unsplash.com/photo-1534078477103-9f6a18b3a5e2?auto=format&amp;fit=crop&amp;w=900&amp;q=70" width="900" height="1100" loading="lazy" alt="Expositor com várias armações de óculos organizadas lado a lado">
+        </figure>
+        <div class="about-content">
+          <h2 id="sobre-title">Sobre a loja</h2>
+          <p>A Ótica Íris é uma loja pequena, com atendimento no balcão. Você experimenta quantos modelos quiser, a gente ajuda a ver o que fica bom no seu rosto e ajusta a armação na hora da entrega.</p>
+          <p>Depois da compra, é só passar aqui quando precisar de um ajuste ou de uma limpeza.</p>
+          <a class="btn btn-primary" href="#contato" data-whatsapp="Olá! Gostaria de agendar uma visita à loja.">Combinar uma visita</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEPOIMENTOS ============ -->
+    <!-- ATENÇÃO: depoimentos provisórios. Antes de publicar, troque por avaliações reais
+         (ex.: do Google Meu Negócio) com autorização dos clientes. -->
+    <section class="section testimonials" aria-labelledby="depoimentos-title">
+      <div class="container">
+        <header class="section-head">
+          <h2 id="depoimentos-title">O que dizem os clientes</h2>
+        </header>
+        <div class="testimonial-list">
+          <figure class="testimonial">
+            <p class="stars" aria-label="Nota 5 de 5">★★★★★</p>
+            <blockquote><p>Experimentei umas quinze armações e em nenhum momento me senti apressada. Saí com um modelo que eu nunca teria escolhido sozinha e que amei.</p></blockquote>
+            <figcaption>Mariana S.</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <p class="stars" aria-label="Nota 5 de 5">★★★★★</p>
+            <blockquote><p>Meu óculos ficou pronto no prazo e, quando a haste afrouxou, ajustaram na hora sem cobrar nada.</p></blockquote>
+            <figcaption>Roberto A.</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <p class="stars" aria-label="Nota 5 de 5">★★★★★</p>
+            <blockquote><p>Levei meu filho para fazer o primeiro óculos. Tiveram muita paciência e ajudaram a escolher uma armação resistente.</p></blockquote>
+            <figcaption>Fernanda L.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO / LOCALIZAÇÃO ============ -->
+    <section class="section contact" id="contato" aria-labelledby="contato-title">
+      <div class="container contact-grid">
+        <div class="contact-content">
+          <h2 id="contato-title">Onde estamos</h2>
+          <p>Passe para experimentar os modelos ou chame no WhatsApp para tirar dúvidas antes.</p>
+
+          <dl class="contact-list">
+            <div>
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Endereço</dt>
+              <dd data-info="endereco">Rua Exemplo, 123, Centro, São Paulo – SP</dd>
+            </div>
+            <div>
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Telefone</dt>
+              <dd><a data-info="telefone" data-tel href="tel:+551130000000">(11) 3000-0000</a></dd>
+            </div>
+            <div>
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</dt>
+              <dd><a data-info="whatsappExibicao" href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento.">(11) 99999-9999</a></dd>
+            </div>
+            <div>
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</dt>
+              <dd><a data-info="instagram" data-instagram href="https://www.instagram.com/oticairis" target="_blank" rel="noopener">@oticairis</a></dd>
+            </div>
+            <div>
+              <dt><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg>Horário</dt>
+              <dd>Segunda a sexta, 9h às 19h<br>Sábado, 9h às 14h</dd>
+            </div>
+          </dl>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" data-directions href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Exemplo+123+Sao+Paulo" target="_blank" rel="noopener">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              Como chegar
+            </a>
+            <a class="btn btn-outline" href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento.">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="map-wrap">
+          <!-- O src do mapa é montado pelo script.js a partir do endereço em CONFIG -->
+          <iframe class="map" data-map title="Mapa com a localização da Ótica Íris" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo logo--light" href="#inicio" aria-label="Ótica Íris, voltar ao início">
+          <svg class="logo-mark" viewBox="0 0 48 20" aria-hidden="true"><circle cx="11" cy="10" r="8" /><circle cx="37" cy="10" r="8" /><path d="M19 9.5c1.6-2 8.4-2 10 0" /></svg>
+          <span class="logo-text"><small>Ótica</small> Íris</span>
+        </a>
+        <p>Óculos de grau, óculos de sol, lentes e ajustes.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Links rápidos">
+        <h2 class="footer-title">Navegue</h2>
+        <ul>
+          <li><a href="#colecoes">Modelos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#marcas">Marcas</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Contato</h2>
+        <ul>
+          <li data-info="endereco">Rua Exemplo, 123, Centro, São Paulo – SP</li>
+          <li><a data-info="telefone" data-tel href="tel:+551130000000">(11) 3000-0000</a></li>
+          <li><a href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento.">WhatsApp <span data-info="whatsappExibicao">(11) 99999-9999</span></a></li>
+          <li><a data-info="instagram" data-instagram href="https://www.instagram.com/oticairis" target="_blank" rel="noopener">@oticairis</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2 class="footer-title">Horário</h2>
+        <ul>
+          <li>Segunda a sexta, 9h às 19h</li>
+          <li>Sábado, 9h às 14h</li>
+          <li>Domingo e feriados, fechado</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="ano">2026</span> Ótica Íris. Todos os direitos reservados.</p>
+      <p class="footer-credit">Fotos demonstrativas: Unsplash</p>
+    </div>
+  </footer>
+
+  <!-- ============ BOTÃO FLUTUANTE ============ -->
+  <a class="whatsapp-float" href="#contato" data-whatsapp="Olá! Vim pelo site e gostaria de atendimento." aria-label="Conversar pelo WhatsApp">
+    <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+
+</body>
+</html>
